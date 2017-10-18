@@ -1,0 +1,8 @@
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\bin\Debug\DotPlot-Matrix.exe.config
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\bin\Debug\DotPlot-Matrix.exe
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\bin\Debug\DotPlot-Matrix.pdb
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\obj\Debug\DotPlot_Matrix.Form1.resources
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\obj\Debug\DotPlot_Matrix.Properties.Resources.resources
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\obj\Debug\DotPlot-Matrix.csproj.GenerateResource.Cache
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\obj\Debug\DotPlot-Matrix.exe
+C:\Users\acer\Desktop\Bioinformatics\DotPlot-Matrix\obj\Debug\DotPlot-Matrix.pdb
