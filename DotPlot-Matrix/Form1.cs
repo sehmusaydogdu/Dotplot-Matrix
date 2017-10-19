@@ -1,12 +1,7 @@
 ﻿using DotPlot_Matrix.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DotPlot_Matrix
@@ -35,7 +30,7 @@ namespace DotPlot_Matrix
                     if (Information.txtSekans2[i] == Information.txtSekans1[j])
                     {
                         lst.Add("X");
-                        if (i==j && Information.txtSekans2[i] == Information.txtSekans1[j])
+                        if (i==j)
                             Information.diagonal++;
                     }
                     else
@@ -45,7 +40,8 @@ namespace DotPlot_Matrix
                 lstView.Items.Add(new ListViewItem(lst.ToArray()));
                 lst.Clear();
             }
-            lblResult.Text = Information.diagonal + "  /  " + Information.txtSekans1.Count() + "  =  " + (Information.diagonal / Information.txtSekans1.Count());
+            lblResult.Text = Information.diagonal + "  /  " + Information.txtSekans1.Count() + 
+                             "  =  " + (Information.diagonal / Math.Max(txtBilgi1.Text.Length,txtBilgi2.Text.Length));
             Information.diagonal = 0;
         }
         private void BilgiAl()
